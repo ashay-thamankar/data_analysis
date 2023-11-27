@@ -1,58 +1,87 @@
-# Movie Budget Analysis with Linear Regression
+# Movie Budget Analysis 🎬💸
 
-## Introduction
-Welcome to the Movie Budget Analysis project! In this project, we explore movie budget and revenue data scraped from [The Numbers](https://www.the-numbers.com/movie/budgets), aiming to answer the question: Do higher film budgets lead to more revenue in the box office?
+## Introduction 🚀
 
-## Learning Objectives
-Today, you'll learn:
-- How to use Seaborn, a popular data visualization library.
-- How to run and interpret a linear regression with scikit-learn.
-- How to plot a regression scatter plot to visualize relationships in the data.
-- How to create a bubble chart to represent three dimensions.
+Ever wondered if bigger film budgets translate to blockbuster success? Let's unravel the relationship by diving into the movie budgets and financial performance data scraped from the-numbers.com on May 1st, 2018.
 
-## Explore and Clean the Data
-Let's start by exploring and cleaning the dataset:
-- **Rows and Columns:** The dataset contains 5,391 rows and 6 columns.
-- **NaN Values:** No NaN values present.
-- **Duplicates:** No duplicate rows.
-- **Data Types:** The data types include Rank, USD Production Budget, USD Worldwide Gross, USD Domestic Gross.
+## Definition of Complex Terms 🤔💡
 
-### Key Statistics
-- Average Production Budget: $31,113,737.58
-- Average Worldwide Gross: $88,855,421.96
-- Minimum Worldwide and Domestic Revenue: $0.00
-- Films Losing Money: 37.2% of films do not recoup their production budget.
+- **Linear Regression:** A statistical wizardry to model the relationship between dependent and independent variables.
+- **R-squared:** The magic number revealing how much of the dependent variable's variance is explained by the independent variable(s).
+- **Regression Coefficients (θ0, θ1):** The mystical parameters governing the intercept and slope of the regression line.
 
-### Visualizations
-Explore the [Bubble Chart](https://github.com/ashay-thamankar/data_analysis/blob/main/movie_budget_analysis/charts/Movie%20Releases%20over%20Time%20scatter%20plot.png) to see the explosion in movie budgets over the years.
+## Data Exploration and Cleaning 🧹🔍
 
-## Decades Analysis
-We used floor division to convert the release year into decades:
-- Old Films (before 1970): 153 films.
-- New Films (1970 onwards): The bulk of films in the dataset.
+### Dataset Overview 📊
 
-### Interesting Fact
-The most expensive film prior to 1970 was "Cleopatra" with a production budget of $42 million.
+- **Shape:** (5391, 6)
+- **Columns:** Rank, Release_Date, Movie_Title, USD_Production_Budget, USD_Worldwide_Gross, USD_Domestic_Gross
+- **Data Types:** int64, object, datetime64[ns]
+- **No Missing Values 🚫🕵️**
+- **No Duplicate Rows 🔄🚫**
 
-## Linear Regression Analysis
-We applied a linear regression model to understand the relationship between budget and revenue. The equation of the regression line is:
+### Data Cleaning 🛁✨
 
-\[ Revenue = 22,821,538.64 + 3.1 \times Budget \]
+Currency columns converted to numeric, and Release_Date to datetime.
 
-Here are the key results:
-- Slope Coefficient: $3.1
-- Intercept: $22,821,538.64
-- R-Squared: 0.029 (indicates a relationship between budget and revenue)
+## Descriptive Statistics 📈📉
 
-### Predictions
-For a $350 million film budget, the estimated revenue is around $600 million.
+1. **Average Production Budget:** $31,113,737.58 💰
+2. **Average Worldwide Gross Revenue:** $88,855,421.96 🌎💸
+3. **Minimums:** Worldwide Gross - $0, Domestic Gross - $0 📉
+4. **Bottom 25% Films:** Generally unprofitable, with an average budget of $5 million and worldwide revenue of $3.8 million. 📉💔
+5. **Maximums:** Production Budget - $425,000,000, Worldwide Gross Revenue - $2,783,918,982 💰🚀
 
-## Conclusion
-The project provides valuable insights into the relationship between movie budgets and revenue, showcasing the industry's growth and the risks associated with film finance.
+## Investigating Zero Revenue Films 🔍💰
 
-Feel free to explore the visualizations and dive into the data! 🍿🎬
+- **Films Grossed $0 Domestically:** 512 💔
+- **Films Grossed $0 Worldwide:** 357 💔
+- **High Budget Films with Zero Revenue:** Examples include "Singularity" and "Aquaman." 💸❌
 
-For a detailed walkthrough and more interactive charts, check out the [Jupyter Notebook](https://github.com/ashay-thamankar/data_analysis/tree/main/movie_budget_analysis).
+## Unreleased Films 🚫🎥
 
+- **Number of Unreleased Films:** 7
+- Excluded these films from further analysis. 🚫🔍
 
-Let's connect and dive into the fascinating world of movie data!
+## Films that Lost Money 💸💔
+
+- **Percentage of Films Losing Money:** 37.2% 💔💸
+
+## Data Visualization 📊🎨
+
+### Seaborn Bubble Chart 🌐💭
+
+- A scatter plot visualizing the relationship between production budget and worldwide gross revenue. 🌐💰
+
+### Movie Releases Over Time 📆🎬
+
+- A scatter plot showcasing movie releases over the years, with budget and revenue information.
+  ![Movie Releases Over Time Scatter Plot](https://github.com/ashay-thamankar/data_analysis/blob/main/movie_budget_analysis/charts/Movie%20Releases%20over%20Time%20scatter%20plot.png)
+
+## Linear Regression Analysis 📈🔍
+
+### New Films 🆕🎬
+
+- **Slope Coefficient:** 3.12
+- **Intercept:** -8,650,768.01
+- **R-squared:** 0.56 🚀🔍
+
+### Old Films 🕰️🎞️
+
+- **Slope Coefficient:** 1.65
+- **Intercept:** 22,821,538.64
+- **R-squared:** 0.03 🕰️📉
+
+## Conclusion 🏁📊
+
+The analysis suggests a positive relationship between movie budgets and worldwide gross revenue. However, the model's predictive power is limited, especially for older films. The industry has seen a significant increase in budgets over the years, with both successes and failures.
+
+## Further Improvements 🛠️🔍
+
+1. Consider additional features for analysis, such as genre, director, or critical reviews. 🎭👩‍🎨
+2. Explore non-linear models for better prediction accuracy. 🔄📊
+3. Investigate the impact of inflation on budget and revenue figures over time. 📈📉
+
+## Overall Project Link 🔗🌐
+
+[Movie Budget Analysis Project](https://github.com/ashay-thamankar/data_analysis/tree/main/movie_budget_analysis)
