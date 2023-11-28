@@ -8,7 +8,7 @@ Welcome to the Data Analysis section of my GitHub repository, where I share a se
    - Dive into the story of Dr. Ignaz Semmelweis and how the discovery of handwashing reduced mortality rates in 19th-century hospitals. This project includes statistical analysis and data visualization.
   
 2. [Playstore Apps Analysis](https://github.com/ashay-thamankar/data_analysis/tree/main/playstore_app_analysis#android-app-store-analysis-unveiling-insights)
-- Analyze the characteristics of mobile apps available on the Google Play Store. This project involves data cleaning and exploratory analysis.
+   - Analyze the characteristics of mobile apps available on the Google Play Store. This project involves data cleaning and exploratory analysis.
 
 3. [Nobel Prize Winner Analysis](https://github.com/ashay-thamankar/data_analysis/tree/main/Noble_Prize_Analysis#nobel-prize-analysis-project-)
    - Explore an analysis of Nobel Prize winners, including their demographics and achievements. This project involves data cleaning, analysis, and visualization.
@@ -21,7 +21,6 @@ Welcome to the Data Analysis section of my GitHub repository, where I share a se
 
 6. [Boston Home Price Evaluation and Prediction](https://github.com/ashay-thamankar/data_analysis/tree/main/home_price_valuation#boston-housing-price-prediction-and-home-price-valuation-data-analysis)
    - Analyze and predict home prices in Boston using multivariable regression. This project delves into predictive modeling.
-
 
 
 ## Getting Started
