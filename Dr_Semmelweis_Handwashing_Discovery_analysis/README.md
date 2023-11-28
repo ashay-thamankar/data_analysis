@@ -4,7 +4,7 @@
 
 Welcome to the Dr. Semmelweis' Handwashing Discovery Analysis project! In this engaging journey, we unravel the compelling story of Dr. Ignaz Semmelweis, a Hungarian physician born in 1818. Dr. Semmelweis played a pivotal role in shaping our understanding of handwashing's significance in medical settings during the 19th century.
 
-## Your Story
+## Story Line
 
 Today, you step into the shoes of Dr. Semmelweis, exploring historical medical data to uncover the impact of handwashing on maternal mortality. The analysis covers:
 
