@@ -4,23 +4,25 @@ Welcome to the Data Analysis section of my GitHub repository, where I share a se
 
 ## Projects
 
-1. [Dr. Semmelweis Handwashing Discovery Analysis](https://github.com/ashay-thamankar/data_analysis/tree/main/Dr_Semmelweis_Handwashing_Discovery_analysis)
+1. [Dr. Semmelweis Handwashing Discovery Analysis](https://github.com/ashay-thamankar/data_analysis/tree/main/Dr_Semmelweis_Handwashing_Discovery_analysis#dr-semmelweis-handwashing-discovery-analysis-)
    - Dive into the story of Dr. Ignaz Semmelweis and how the discovery of handwashing reduced mortality rates in 19th-century hospitals. This project includes statistical analysis and data visualization.
+  
+2. [Playstore Apps Analysis](https://github.com/ashay-thamankar/data_analysis/tree/main/playstore_app_analysis#android-app-store-analysis-unveiling-insights)
+- Analyze the characteristics of mobile apps available on the Google Play Store. This project involves data cleaning and exploratory analysis.
 
-2. [Nobel Prize Winner Analysis](https://github.com/ashay-thamankar/data_analysis/tree/main/Noble_Prize_Analysis)
+3. [Nobel Prize Winner Analysis](https://github.com/ashay-thamankar/data_analysis/tree/main/Noble_Prize_Analysis#nobel-prize-analysis-project-)
    - Explore an analysis of Nobel Prize winners, including their demographics and achievements. This project involves data cleaning, analysis, and visualization.
 
-3. [Google Trending Data Analysis](https://github.com/ashay-thamankar/data_analysis/tree/main/google_trend_analysis)
+4. [Google Trending Data Analysis](https://github.com/ashay-thamankar/data_analysis/tree/main/Google_trend_analysis#google-trends-analysis-project-)
    - Discover insights from Google's trending search data. This project includes time series analysis and data visualization.
 
-4. [Boston Home Price Evaluation and Prediction](https://github.com/ashay-thamankar/data_analysis/tree/main/home_price_valuation)
-   - Analyze and predict home prices in Boston using multivariable regression. This project delves into predictive modeling.
-
-5. [Movie Budget Analysis Using Linear Regression](https://github.com/ashay-thamankar/data_analysis/tree/main/movie_budget_analysis)
+5. [Movie Budget Analysis Using Linear Regression](https://github.com/ashay-thamankar/data_analysis/tree/main/movie_budget_analysis#movie-budget-analysis-)
    - Explore the relationship between movie budgets and box office performance using linear regression. This project includes regression analysis.
 
-6. [Playstore Apps Analysis](https://github.com/ashay-thamankar/data_analysis/tree/main/playstore_app_analysis)
-   - Analyze the characteristics of mobile apps available on the Google Play Store. This project involves data cleaning and exploratory analysis.
+6. [Boston Home Price Evaluation and Prediction](https://github.com/ashay-thamankar/data_analysis/tree/main/home_price_valuation#boston-housing-price-prediction-and-home-price-valuation-data-analysis)
+   - Analyze and predict home prices in Boston using multivariable regression. This project delves into predictive modeling.
+
+
 
 ## Getting Started
 
